@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f7f7f7;
+}
+
+.anggara {
+  font-weight: bolder;
+  font-size: 27px;
+  margin-left: 30px;
+}
+
+.home_dll {
+  font-size: 18px;
+  text-align: center;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: black;
+}
+
+/* Top Content */
+
+.tb-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+  vertical-align: middle;
+}
+
+.description {
+  height: 195px;
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+  padding-bottom: 10px;
+  border-bottom: 6px solid black;
+  margin-right: 50px;
+}
+
+/* About Me */
+.about-me {
+  width: 95%;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.about-me table {
+  width: max-content;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.about-me table img {
+  border-radius: 50%;
+  width: 350px;
+}
+
+.about-me table p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.about-me table p #company-name {
+  font-size: 40px;
+}
+
+.about-me table p #job {
+  color: gray;
+}
+
+/* Skill */
+.skill {
+  width: 95%;
+  margin: auto;
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
+
+.skill table {
+  width: 95%;
+  margin-top: 70px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.skill table .php {
+  width: 85%;
+  border-top: 7px solid black;
+}
+
+.skill table .java {
+  width: 60%;
+  border-top: 7px solid black;
+}
+
+.skill table .js {
+  width: 20%;
+  border-top: 7px solid black;
+}
+
+.skill table .mysql {
+  width: 62%;
+  border-top: 7px solid black;
+}
+
+.skill table .ci {
+  width: 70%;
+  border-top: 7px solid black;
+}
+
+.skill table .nodejs {
+  width: 10%;
+  border-top: 7px solid black;
+}
+
+.skill table tr .lang {
+  width: 250px;
+}
